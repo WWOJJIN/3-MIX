@@ -145,15 +145,15 @@ h1 span {
 }
 
 .content_list li:nth-child(1) .img-wrap {
-    background-image: url(../img/c5-list-1.png);
+    background-image: url(./img/c5-list-1.png);
 }
 
 .content_list li:nth-child(2) .img-wrap {
-    background-image: url(../img/c5-list-2.png);
+    background-image: url(./img/c5-list-2.png);
 }
 
 .content_list li:nth-child(3) .img-wrap {
-    background-image: url(../img/c5-list-3.png);
+    background-image: url(./img/c5-list-3.png);
 }
 
 
