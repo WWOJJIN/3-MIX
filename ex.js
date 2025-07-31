@@ -1,6 +1,6 @@
 
-const tabList = document.querySelectorAll('.nav-list li');
-const content = document.querySelectorAll('.content_list li');
+const tabList = document.querySelectorAll('#s02 .nav-list li');
+const content = document.querySelectorAll('#s02 .content_list li');
 
 let i = 0;
 
