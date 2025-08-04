@@ -1,0 +1,120 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ section {
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .carousel-slider {
+     width: 1200px;
+     padding: 50px 0;
+ }
+
+ .carousel-slider .swiper-slide a {
+     background-color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 300px;
+     width: 300px;
+     border-radius: 20px;
+     margin: auto;
+     position: relative;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 200px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.348);
+     overflow: hidden;
+     text-decoration: none;
+     transition: all .3s;
+
+ }
+
+ .carousel-slider .swiper-slide a span {
+     font-size: 50px;
+     color: #fff;
+     position: relative;
+     z-index: 1;
+     opacity: 0;
+     transition: all .3s;
+     transform: translateY(30px);
+ }
+
+ .carousel-slider .swiper-slide a .bg {
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #00000071;
+     opacity: 0;
+     transition: all .3s;
+
+ }
+
+ .carousel-slider .swiper-slide a:hover span {
+     opacity: 1;
+     transform: translateY(0);
+
+ }
+
+ .carousel-slider .swiper-slide a:hover .bg {
+     opacity: 1;
+
+ }
+
+ .carousel-slider .swiper-slide.swiper-slide-active {
+     z-index: 13;
+
+ }
+
+ .carousel-slider .swiper-slide.swiper-slide-active a {
+     transform: scale(1.3);
+ }
+
+ .carousel-slider .swiper-slide.swiper-slide-prev a {
+     transform: translateX(100px);
+ }
+
+ .carousel-slider .swiper-slide.swiper-slide-next a {
+     transform: translateX(-100px);
+ }
+
+ .carousel-slider .swiper-slide.s01 a {
+     background-image: url(./img/1.png);
+ }
+
+ .carousel-slider .swiper-slide.s02 a {
+     background-image: url(./img/2.png);
+ }
+
+ .carousel-slider .swiper-slide.s03 a {
+     background-image: url(./img/3.png);
+ }
+
+ .carousel-slider .swiper-slide.s04 a {
+     background-image: url(./img/4.png);
+ }
+
+ .carousel-slider .swiper-slide.s05 a {
+     background-image: url(./img/5.png);
+ }
+
+ .carousel-slider .swiper-slide.s06 a {
+     background-image: url(./img/6.png);
+ }
+
+ .carousel-slider .swiper-slide.s07 a {
+     background-image: url(./img/7.png);
+ }
+
+ .carousel-slider .swiper-slide.s08 a {
+     background-image: url(./img/8.png);
+ }
